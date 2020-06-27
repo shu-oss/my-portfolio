@@ -93,12 +93,12 @@ $(function(){
     $('.header-name, .header-mail, .header-menu, .header-img').hide();
      $(window).on('load',function() {
          $('.load').delay(1000).fadeOut(500);
-         $('.header-name, .header-mail, .header-menu, .header-img').delay(1000).fadeIn(2000);
-         $('.header-title').delay(1000).addClass('fade-title');
-         $('.header-title-text').delay(1000).addClass('fade-title--2');
-         $('.header-triangle--1').delay(1000).addClass('fade-triangle--1');
-         $('.header-triangle--2').delay(1000).addClass('fade-triangle--2');
-         $('.header-triangle--3').delay(1000).addClass('fade-triangle--3');
+         $('.header-name, .header-mail, .header-menu, .header-img').delay(1500).fadeIn(2000);
+         $('.header-title').delay(2000).addClass('fade-title');
+         $('.header-title-text').delay(2000).addClass('fade-title--2');
+         $('.header-triangle--1').delay(2000).addClass('fade-triangle--1');
+         $('.header-triangle--2').delay(2000).addClass('fade-triangle--2');
+         $('.header-triangle--3').delay(2000).addClass('fade-triangle--3');
      });
 
 
