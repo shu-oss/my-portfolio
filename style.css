@@ -297,7 +297,7 @@ body {
 @media (min-width: 769px) {
   .hide--4 {
     opacity: 0.1;
-    transform: translateX(80%);
+    transform: translateX(60%);
     transition: all 500ms;
   }
 }
@@ -313,7 +313,7 @@ body {
 @media (min-width: 769px) {
   .hide--5 {
     opacity: 0.1;
-    transform: translateX(-80%);
+    transform: translateX(-60%);
     transition: all 500ms;
   }
 }
