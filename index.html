@@ -1,736 +1,402 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html lang="ja">
 <head>
-
-    <!--- basic page needs
-    ================================================== -->
-    <meta charset="utf-8">
-    <title>Transcend</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <!-- mobile specific metas
-    ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- CSS
-    ================================================== -->
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/main.css">
-
-    <!-- script
-    ================================================== -->
-    <script src="js/modernizr.js"></script>
-    <script src="js/pace.min.js"></script>
-
-    <!-- favicons
-    ================================================== -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- google-font -->
+    <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@700&family=Kanit:wght@300&family=Noto+Sans+SC&display=swap" rel="stylesheet">
+    <!-- font-awesome -->
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
-
-<body id="top">
-
-    <!-- header
-    ================================================== -->
-    <header class="s-header">
-
-        <div class="header-logo">
-            <a class="site-logo" href="index.html">
-                <img src="images/logo.svg" alt="Homepage">
-            </a>
-        </div> <!-- end header-logo -->
-
-        <nav class="header-nav">
-
-            <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
-
-            <div class="header-nav__content">
-                <h3>Transcend Studio</h3>
-                
-                <ul class="header-nav__list">
-                    <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
-                    <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
-                    <li><a class="smoothscroll"  href="#services" title="services">Services</a></li>
-                    <li><a class="smoothscroll"  href="#works" title="works">Works</a></li>
-                    <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
-                </ul>
-    
-                <p>Perspiciatis hic praesentium nesciunt. Et neque a dolorum <a href='#0'>voluptatem</a> porro iusto sequi veritatis libero enim. Iusto id suscipit veritatis neque reprehenderit.</p>
-    
-                <ul class="header-nav__social">
-                    <li>
-                        <a href="#0"><i class="fab fa-facebook"></i></a>
-                    </li>
-                    <li>
-                        <a href="#0"><i class="fab fa-twitter"></i></a>
-                    </li>
-                    <li>
-                        <a href="#0"><i class="fab fa-instagram"></i></a>
-                    </li>
-                    <li>
-                        <a href="#0"><i class="fab fa-behance"></i></a>
-                    </li>
-                    <li>
-                        <a href="#0"><i class="fab fa-dribbble"></i></a>
-                    </li>
-                </ul>
-
-            </div> <!-- end header-nav__content -->
-
-        </nav> <!-- end header-nav -->
-
-        <a class="header-menu-toggle" href="#0">
-            <span class="header-menu-icon"></span>
-        </a>
-
-    </header> <!-- end s-header -->
-
-
-    <!-- home
-    ================================================== -->
-    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=top>
-
-        <div class="shadow-overlay"></div>
-
-        <div class="home-content">
-
-            <div class="row home-content__main">
-                <h1>
-                Hello folks, we are <br>
-                Transcend Studio.
-                </h1>
-
-                <p>
-                We create stunning digital experiences <br>
-                that will help your business stand out.
-                </p>
-            </div> <!-- end home-content__main -->
-
-        </div> <!-- end home-content -->
-
-        <ul class="home-sidelinks">
-            <li><a class="smoothscroll" href="#about">About<span>who we are</span></a></li>
-            <li><a class="smoothscroll" href="#services">Services<span>what we do</span></a></li>
-            <li><a  class="smoothscroll" href="#contact">Contact<span>get in touch</span></a></li>
-        </ul> <!-- end home-sidelinks -->
-
-        <ul class="home-social">
-            <li class="home-social-title">Follow Us</li>
-            <li><a href="#0">
-                <i class="fab fa-facebook"></i>
-                <span class="home-social-text">Facebook</span>
-            </a></li>
-            <li><a href="#0">
-                <i class="fab fa-twitter"></i>
-                <span class="home-social-text">Twitter</span>
-            </a></li>
-            <li><a href="#0">
-                <i class="fab fa-linkedin"></i>
-                <span class="home-social-text">LinkedIn</span>
-            </a></li>
-        </ul> <!-- end home-social -->
-
-        <a href="#about" class="home-scroll smoothscroll">
-            <span class="home-scroll__text">Scroll Down</span>
-            <span class="home-scroll__icon"></span>
-        </a> <!-- end home-scroll -->
-
-    </section> <!-- end s-home -->
-
-
-    <!-- about
-    ================================================== -->
-    <section id='about' class="s-about">
-
-        <div class="row section-header" data-aos="fade-up">
-            <div class="col-full">
-                <h3 class="subhead">Who We Are</h3>
-                <h1 class="display-1">We are a group of design driven individuals passionate about creating beautiful UI designs.</h1>
-            </div>
-        </div> <!-- end section-header -->
-
-        <div class="row" data-aos="fade-up">
-            <div class="col-full">
-                <p class="lead">
-                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Donec rutrum congue leo eget malesuada. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse. 
-                </p>
-            </div>
-        </div> <!-- end about-desc -->
-
-        <div class="row">
-                
-            <div class="about-process process block-1-2 block-tab-full">
-
-                <div class="process__vline-left"></div>
-                <div class="process__vline-right"></div>
-
-                <div class="col-block process__col" data-item="1" data-aos="fade-up">
-                    <div class="process__text">
-                        <h4>Define</h4>
-
-                        <p>
-                        Quos dolores saepe mollitia deserunt accusamus autem reprehenderit. Voluptas facere animi explicabo non quis magni recusandae. 
-                        Numquam debitis pariatur omnis facere unde. Laboriosam minus amet nesciunt est. Et saepe eos maxime tempore quasi deserunt ab.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-block process__col" data-item="2" data-aos="fade-up">
-                    <div class="process__text">
-                        <h4>Design</h4>
-
-                        <p>
-                        Quos dolores saepe mollitia deserunt accusamus autem reprehenderit. Voluptas facere animi explicabo non quis magni recusandae. 
-                        Numquam debitis pariatur omnis facere unde. Laboriosam minus amet nesciunt est. Et saepe eos maxime tempore quasi deserunt ab.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-block process__col" data-item="3" data-aos="fade-up">
-                    <div class="process__text">
-                        <h4>Build</h4>
-
-                        <p>
-                        Quos dolores saepe mollitia deserunt accusamus autem reprehenderit. Voluptas facere animi explicabo non quis magni recusandae. 
-                        Numquam debitis pariatur omnis facere unde. Laboriosam minus amet nesciunt est. Et saepe eos maxime tempore quasi deserunt ab.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-block process__col" data-item="4" data-aos="fade-up">
-                    <div class="process__text">
-                        <h4>Launch</h4>
-
-                        <p>
-                        Quos dolores saepe mollitia deserunt accusamus autem reprehenderit. Voluptas facere animi explicabo non quis magni recusandae. 
-                        Numquam debitis pariatur omnis facere unde. Laboriosam minus amet nesciunt est. Et saepe eos maxime tempore quasi deserunt ab.
-                        </p>
-                    </div>
-                </div>
-
-            </div> <!-- end process -->
-
-        </div> <!-- end about-stats -->
-
-    </section> <!-- end s-about -->
-
-
-    <!-- services
-    ================================================== -->
-    <section id='services' class="s-services light-gray">
-
-        <div class="row section-header" data-aos="fade-up">
-            <div class="col-full">
-                <h3 class="subhead">What We Do</h3>
-                <h1 class="display-1">We have everything you need to launch and grow a successful digital business.</h1>
-            </div>
-        </div> <!-- end section-header -->
-
-        <div class="row" data-aos="fade-up">
-            <div class="col-full">
-                <p class="lead">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse. 
-                </p>
-            </div>
-        </div> <!-- end about-desc -->
-
-        <div class="row services-list block-1-3 block-m-1-2 block-tab-full">
-
-            <div class="col-block service-item " data-aos="fade-up">
-                <div class="service-icon service-icon--brand-identity">
-                    <i class="icon-tv"></i>
-                </div>
-                <div class="service-text">
-                    <h3 class="h4">Brand Identity</h3>
-                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
-                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
-                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon  service-icon--illustration">
-                    <i class="icon-group"></i>
-                </div>
-                <div class="service-text">
-                    <h3 class="h4">Illustration</h3>
-                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
-                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
-                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon  service-icon--web-design">
-                    <i class="icon-earth"></i>
-                </div>  
-                <div class="service-text">
-                    <h3 class="h4">Web Design</h3>
-                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
-                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
-                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon service-icon--product-strategy">
-                    <i class="icon-cube"></i>
-                </div>
-                <div class="service-text">
-                    <h3 class="h4">Product Strategy</h3>
-                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
-                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
-                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon  service-icon--ui-design">
-                    <i class="icon-window"></i>
-                </div>
-                <div class="service-text">
-                    <h3 class="h4">UI/UX Design</h3>
-                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
-                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
-                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
-                    </p>
-                </div>
-            </div>
-    
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon service-icon--mobile-dev">
-                    <i class="icon-lego-block"></i>
-                </div>
-                <div class="service-text">
-                    <h3 class="h4">Mobile Development</h3>
-                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
-                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
-                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
-                    </p>
-                </div>
-            </div>
-
-        </div> <!-- end services-list -->
-
-    </section> <!-- end s-services -->
-
-
-    <!-- works
-    ================================================== -->
-    <section id='works' class="s-works">
-                
-        <div class="row section-header" data-aos="fade-up">
-            <div class="col-full">
-                <h3 class="subhead">Featured Works</h3>
-                <h1 class="display-1">These are some of our recent design projects and we are so excited to show them to you.</h1>
-            </div>
-        </div> <!-- end section-header -->
-
-        <div class="row masonry-wrap">
-            <div class="masonry">
-
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-lamp.jpg" class="thumb-link" title="Lamp" data-size="1050x700">
-                                <img src="images/portfolio/lamp.jpg" 
-                                     srcset="images/portfolio/lamp.jpg 1x, images/portfolio/lamp@2x.jpg 2x" alt="">
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Lamp
-                            </h3>
-                            <p class="item-folio__cat">
-                                Web Design
-                            </p>
-                        </div>
-
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                            Project Link
-                        </a>
-
-                        <div class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                        </div>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-salad.jpg" class="thumb-link" title="Salad" data-size="1050x700">
-                                <img src="images/portfolio/salad.jpg" 
-                                     srcset="images/portfolio/salad.jpg 1x, images/portfolio/salad@2x.jpg 2x" alt="">
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Salad
-                            </h3>
-                            <p class="item-folio__cat">
-                                Branding
-                            </p>
-                        </div>
-
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                            Project Link
-                        </a>
-
-                        <span class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                        </span>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-woodcraft.jpg" class="thumb-link" title="Woodcraft" data-size="1050x700">
-                                <img src="images/portfolio/woodcraft.jpg"
-                                     srcset="images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x" alt="">
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Woodcraft
-                            </h3>
-                            <p class="item-folio__cat">
-                                Branding
-                            </p>
-                        </div>
-
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                            Project Link
-                        </a>
-
-                        <span class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                        </span>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-liberty.jpg" class="thumb-link" title="Liberty" data-size="1050x700">
-                                <img src="images/portfolio/liberty.jpg"
-                                     srcset="images/portfolio/liberty.jpg 1x, images/portfolio/liberty@2x.jpg 2x" alt="">
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Liberty
-                            </h3>
-                            <p class="item-folio__cat">
-                                Web Development
-                            </p>
-                        </div>
-
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                            Project Link
-                        </a>
-
-                        <span class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                        </span>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-fuji.jpg" class="thumb-link" title="Fuji" data-size="1050x700">
-                                <img src="images/portfolio/fuji.jpg"
-                                     srcset="images/portfolio/fuji.jpg 1x, images/portfolio/fuji@2x.jpg 2x" alt="">
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Fuji
-                            </h3>
-                            <p class="item-folio__cat">
-                                Web Design
-                            </p>
-                        </div>
-
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                            Project Link
-                        </a>
-
-                        <span class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                        </span>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-shutterbug.jpg" class="thumb-link" title="Shutterbug" data-size="1050x700">
-                                <img src="images/portfolio/shutterbug.jpg"
-                                     srcset="images/portfolio/shutterbug.jpg 1x, images/portfolio/shutterbug@2x.jpg 2x" alt="">
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Lady Shutterbug
-                            </h3>
-                            <p class="item-folio__cat">
-                                Branding
-                            </p>
-                        </div>
-
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                            Project Link
-                        </a>
-
-                        <span class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                        </span>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-            </div> <!-- end masonry -->
-        </div> <!-- end masonry-wrap -->
-
-        <div class="testimonials-wrap" data-aos="fade-up">
-
-            <div class="row">
-                <div class="col-full testimonials-header">
-                    <h2 class="h1">What Clients Are Saying.</h2>
-                </div>
-            </div>
-
-            <div class="row testimonials">
-
-                <div class="col-full testimonials__slider">
-
-                    <div class="testimonials__slide">
-                        <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonials__avatar">
-                        <p>Qui ipsam temporibus quisquam velMaiores eos cumque distinctio nam accusantium ipsum. 
-                        Laudantium quia consequatur molestias delectus culpa facere hic dolores aperiam. Accusantium quos qui praesentium corpori.</p>
-                        <div class="testimonials__author">
-                            Tim Cook
-                            <span>CEO, Apple</span>
-                        </div>
-                    </div> <!-- end testimonials__slide -->
-
-                    <div class="testimonials__slide">
-                        <img src="images/avatars/user-05.jpg" alt="Author image" class="testimonials__avatar">
-                        <p>Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci.
-                        Nisi eaque consequatur. Quasi voluptas eius distinctio. Atque eos maxime. Qui ipsam temporibus quisquam vel.</p>
-                        <div class="testimonials__author">
-                            Sundar Pichai
-                            <span>CEO, Google</span>
-                        </div>
-                    </div> <!-- end testimonials__slide -->
-
-                    <div class="testimonials__slide">
-                        <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonials__avatar">
-                        <p>Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia nesciunt. Ducimus aut sed ipsam.  
-                        Autem eaque officia cum exercitationem sunt voluptatum accusamus. Quasi voluptas eius distinctio.</p>
-                        <div class="testimonials__author">
-                            Satya Nadella
-                            <span>CEO, Microsoft</span>
-                        </div>
-                    </div> <!-- end testimonials__slide -->
-                    
-                </div> <!-- end testimonials__slider -->
-
-            </div> <!-- end testimonials -->
-
-        </div> <!-- end testimonials-wrap -->
-
-    </section> <!-- end s-works -->
-
-
-    <!-- stats
-    ================================================== -->
-    <section id="stats" class="s-stats">
-
-        <div class="row stats block-1-4 block-m-1-2 block-mob-full" data-aos="fade-up">
-                
-            <div class="col-block stats__col ">
-                <div class="stats__count">129</div>
-                <h5>Awards Received</h5>
-            </div>
-            <div class="col-block stats__col">
-                <div class="stats__count">1507</div>
-                <h5>Cups of Coffee</h5>
-            </div>
-            <div class="col-block stats__col">
-                <div class="stats__count">108</div>
-                <h5>Projects Completed</h5>
-            </div>
-            <div class="col-block stats__col">
-                <div class="stats__count">103</div>
-                <h5>Happy Clients</h5> 
-            </div>
-
-        </div> <!-- end stats -->
-
-    </section> <!-- end s-stats -->
-
-
-    <!-- contact
-    ================================================== -->
-    <section id="contact" class="s-contact">
-
-        <div class="row section-header" data-aos="fade-up">
-            <div class="col-full">
-                <h3 class="subhead subhead--light">Contact Us</h3>
-                <h1 class="display-1 display-1--light">Get in touch and let's make something great together. Let's turn your idea on an even greater product.</h1>
-            </div>
-        </div> <!-- end section-header -->
-
-        <div class="row">
-
-            <div class="col-full contact-main" data-aos="fade-up">
-                <p>
-                <a href="mailto:#0" class="contact-email">hello@transcend-studio.com</a>
-                <span class="contact-number">+1 (917) 123 456  /  +1 (917) 333 987</span>
-                </p>
-            </div> <!-- end contact-main -->
-
-        </div> <!-- end row -->
-
-        <div class="row">
-
-            <div class="col-five tab-full contact-secondary" data-aos="fade-up">
-                <h3 class="subhead subhead--light">Where To Find Us</h3>
-
-                <p class="contact-address">
-                    1600 Amphitheatre Parkway<br>
-                    Mountain View, CA<br>
-                    94043 US
-                </p>
-            </div> <!-- end contact-secondary -->
-
-            <div class="col-five tab-full contact-secondary" data-aos="fade-up">
-                <h3 class="subhead subhead--light">Follow Us</h3>
-
-                <ul class="contact-social">
-                    <li>
-                        <a href="#0"><i class="fab fa-facebook"></i></a>
-                    </li>
-                    <li>
-                        <a href="#0"><i class="fab fa-twitter"></i></a>
-                    </li>
-                    <li>
-                        <a href="#0"><i class="fab fa-instagram"></i></a>
-                    </li>
-                    <li>
-                        <a href="#0"><i class="fab fa-behance"></i></a>
-                    </li>
-                    <li>
-                        <a href="#0"><i class="fab fa-dribbble"></i></a>
-                    </li>
-                </ul> <!-- end contact-social -->
-
-                <div class="contact-subscribe">
-                    <form id="mc-form" class="group mc-form" novalidate="true">
-                        <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
-                        <input type="submit" name="subscribe" value="Subscribe">
-                        <label for="mc-email" class="subscribe-message"></label>
-                    </form>
-                </div> <!-- end contact-subscribe -->
-            </div> <!-- end contact-secondary -->
-
-        </div> <!-- end row -->
-
-        <div class="row">
-            <div class="col-full cl-copyright">
-                <span><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></span> 
-            </div>
+<body>
+<!-- load -->
+<div class="load">
+    <div class="load-con">
+        <p class="load-l loading">L</p>
+        <p class="load-o loading">O</p>
+        <p class="load-a loading">A</p>
+        <p class="load-d loading">D</p>
+        <p class="load-i loading">I</p>
+        <p class="load-n loading">N</p>
+        <p class="load-g loading">G</p>
+    </div>
+</div>
+<!-- header -->
+<header href="#">
+    <div class="header">
+        <div class="header-img">
+            <img src="img/header-img.jpg" alt="PCの画像" class="header-img-1">
         </div>
-
-        <div class="cl-go-top">
-            <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
-        </div>
-
-    </section> <!-- end s-contact -->
-
-
-    <!-- photoswipe background
-    ================================================== -->
-    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
-
-        <div class="pswp__bg"></div>
-        <div class="pswp__scroll-wrap">
-
-            <div class="pswp__container">
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
+        <div class="header-triangle--1"></div>
+        <div class="header-triangle--2"></div>
+        <div class="header-triangle--3"></div>
+            <div class="header-name">
+                <a href="">SHU ONO / WEB DESIGNER</a>
             </div>
-
-            <div class="pswp__ui pswp__ui--hidden">
-                <div class="pswp__top-bar">
-                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
-                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
-                    "Zoom in/out"></button>
-                    <div class="pswp__preloader">
-                        <div class="pswp__preloader__icn">
-                            <div class="pswp__preloader__cut">
-                                <div class="pswp__preloader__donut"></div>
+            <div class="header-mail">
+                <a href="mailto:ono.shu.0129@gmail.com?subject=%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B&amp;body=%5B%E3%81%8A%E5%90%8D%E5%89%8D%5D%0A%0A%5B%E3%81%94%E7%94%A8%E4%BB%B6%5D%0A%0A">Say Hello<i class="far fa-envelope"></i></a>
+            </div>
+        <div class="header-menu-icon">
+            <i class="fas fa-bars"></i>
+            <p>MENU</p>
+        </div>
+        <div class="header-menu">
+            <a href="#"><p>TOP</p></a>
+            <a href="#about"><p>ABOUT</p></a>
+            <a href="#service"><p>WHAT I DO</p></a>
+            <a href="#work"><p>WORKS</p></a>
+            <a href="#passion"><p>PASSION</p></a>
+            <a href="mailto:ono.shu.0129@gmail.com?subject=%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B&amp;body=%5B%E3%81%8A%E5%90%8D%E5%89%8D%5D%0A%0A%5B%E3%81%94%E7%94%A8%E4%BB%B6%5D%0A%0A">
+            <p>MESSAGE</p></a>
+        </div>
+        <div class="header-menu-bar">
+            <a href="#"><p>TOP</p></a>
+            <a href="#about"><p>ABOUT</p></a>
+            <a href="#service"><p>WHAT I DO</p></a>
+            <a href="#work"><p>WORKS</p></a>
+            <a href="#passion"><p>PASSION</p></a>
+            <a href="mailto:ono.shu.0129@gmail.com?subject=%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B&amp;body=%5B%E3%81%8A%E5%90%8D%E5%89%8D%5D%0A%0A%5B%E3%81%94%E7%94%A8%E4%BB%B6%5D%0A%0A">
+            <p>MESSAGE</p></a>
+        </div>
+        <h1 class="header-title"><span class="header-title-large">SHU ONO</span><br>WEB DESIGNER</h1>
+        <p class="header-title-text">Design creates emotion.<br>The world is full of design. It's nature, building, fashion, and the web. Design has no words, doesn't speak to us, but it has mysterious energy, moves our hearts strongly as if we're looking at a beautiful flowers.</p>
+    </div>
+</header>
+<!-- menu -->
+<div class="menu">
+    <img src="img/menu.jpg" alt="ワークスペースの画像">
+    <div class="menu-close"><i class="fas fa-times"></i></div>
+    <div class="menu-con">
+        <div class="menu-title">
+            <a href="#" class="menu-a">TOP</a>
+        </div>
+        <div class="menu-title">
+            <a href="#about" class="menu-a">ABOUT</a>
+        </div>
+        <div class="menu-title">
+            <a href="#service" class="menu-a">WHAT I DO</a>
+        </div>
+        <div class="menu-title">
+            <a href="#work" class="menu-a">WORKS</a>
+        </div>
+        <div class="menu-title">
+            <a href="#passion" class="menu-a">PASSION</a>
+        </div>
+        <div class="menu-title">
+            <a href="mailto:ono.shu.0129@gmail.com?subject=%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B&amp;body=%5B%E3%81%8A%E5%90%8D%E5%89%8D%5D%0A%0A%5B%E3%81%94%E7%94%A8%E4%BB%B6%5D%0A%0A" class="menu-a">MESSAGE</a>
+        </div>
+    </div>
+</div>
+<!-- main -->
+<main>
+<!-- about -->
+<section>
+<div class="about" id="about">
+    <div class="about-title hide">
+        <h2>ABOUT</h2>
+        <p>///</p>
+    </div>
+    <div class="about-con">
+        <h3 class="about-con-name hide">I'm Shu Ono, a Web Designer based in Hyogo.</h3>
+        <div class="about-con--2">
+            <div class="about-con-img hide">
+                <img src="img/profile.jpg" alt="プロフィール画像">
+            </div>
+            <div class="about-con-text hide">
+                <div class="about-con-text-pro">
+                        <p>私の使命はお客様にとって<strong>価値のある、そして有益な製品を生み出す</strong>ことだと考えています。そのために自身のスキルの向上・アンテナを張り、見聞を広め、インスピレーションを得る姿勢を忘れません。<br>お客様のパフォーマンスを最大限発揮できるように、モバイル・レスポンシブデザイン・メンテナンス性・運用のしやすさ・SEOを意識したウェブサイトの構築をお約束いたします。現在、WordPress制作・導入・HP/LP制作などで活動中です。サイト設計・デザインからコーディングまでお気軽にご相談ください。</p>
+                </div>
+                <div class="about-con-skill">
+                    <div class="skill-con hide">
+                        <div class="skill-con--1">
+                            <div class="skill-con--2">
+                                <div class="skill-con-text">
+                                    <p class="skill-con-title">HTML5</p>
+                                    <p class="skill-con-title ">90<span class="skill-con-per">%</span></p>
+                                </div>
+                                <div class="skill-h skill-con-graph"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-con hide">
+                        <div class="skill-con--1">
+                            <div class="skill-con--2">
+                                <div class="skill-con-text">
+                                    <p class="skill-con-title">CSS3</p>
+                                    <p class="skill-con-title">80<span class="skill-con-per">%</span></p>
+                                </div>
+                                <div class="skill-c skill-con-graph"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-con hide">
+                        <div class="skill-con--1">
+                            <div class="skill-con--2">
+                                <div class="skill-con-text">
+                                    <p class="skill-con-title">JavaScript</p>
+                                    <p class="skill-con-title">70<span class="skill-con-per">%</span></p>
+                                </div>
+                                <div class="skill-j skill-con-graph"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-con hide">
+                        <div class="skill-con--1">
+                            <div class="skill-con--2">
+                                <div class="skill-con-text">
+                                    <p class="skill-con-title">Sass</p>
+                                    <p class="skill-con-title">60<span class="skill-con-per">%</span></p>
+                                 </div>
+                                <div class="skill-s skill-con-graph"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-con hide">
+                        <div class="skill-con--1">
+                            <div class="skill-con--2">
+                                <div class="skill-con-text">
+                                    <p class="skill-con-title">Bootstrap
+                                    </p>
+                                    <p class="skill-con-title">60<span class="skill-con-per">%</span></p>
+                                </div>
+                                <div class="skill-b skill-con-graph"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-con hide">
+                        <div class="skill-con--1">
+                            <div class="skill-con--2">
+                                <div class="skill-con-text">
+                                    <p class="skill-con-title">WordPress</p>
+                                    <p class="skill-con-title">70<span class="skill-con-per">%</span></p>
+                                </div>
+                                <div class="skill-w skill-con-graph"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-con hide">
+                        <div class="skill-con--1">
+                            <div class="skill-con--2">
+                                <div class="skill-con-text">
+                                    <p class="skill-con-title">Photoshop</p>
+                                    <p class="skill-con-title">70<span class="skill-con-per">%</span></p>
+                                </div>
+                                <div class="skill-w skill-con-graph"></div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                    <div class="pswp__share-tooltip"></div>
-                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
-                "Next (arrow right)"></button>
-                <div class="pswp__caption">
-                    <div class="pswp__caption__center"></div>
-                </div>
             </div>
-
-        </div>
-
-    </div> <!-- end photoSwipe background -->
-
-
-    <!-- preloader
-    ================================================== -->
-    <div id="preloader">
-        <div id="loader">            
         </div>
     </div>
+</div>
+</section>
+
+<!-- service -->
+<section>
+    <div class="service" id="service">
+            <div class="service-title hide">
+                <h2>WHAT I DO</h2>
+                <p>///</p>
+            </div>
+            <h3 class="service-title-text hide">
+                Meaningful design and generic coding
+            </h3>
+            <div class="service-all">
+                <div class="service-all-con service--1 hide">
+                    <div class="service-con">
+                        <div class="service-con-top">
+                            <div class="service-img">
+                                <img src="img/hp.png" alt="webのアイコン">
+                            </div>
+                            <h3>HP / LP制作</h3>
+                        </div>
+                        <p class="service-con-text">アニメーションの実装やレスポンシブ対応、UI/UXを高めるサイトを構築いたします。</p>
+                        <ul>
+                            <li><i class="fas fa-circle"></i>デザインカスタマイズ</li>
+                            <li><i class="fas fa-circle"></i>アニメーションの実装</li>
+                            <li><i class="fas fa-circle"></i>レスポンシブ対応</li>
+                            <li><i class="fas fa-circle"></i>お問い合わせフォームの実装</li>
+                            <li><i class="fas fa-circle"></i>Photoshopを用いてデザイン設計</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="service-all-con service--2 hide--2">
+                    <div class="service-con">
+                        <div class="service-con-top">
+                            <div class="service-img--2">
+                                <img src="img/make.png" alt="wordpressのアイコン">
+                            </div>
+                            <h3>WordPress制作</h3>
+                        </div>
+                        <p class="service-con-text">管理がしやすく更新の必要なWebサイトをご希望の場合は、WordPressをご提案させて頂いています。</p>
+                        <ul>
+                            <li><i class="fas fa-circle"></i>WordPressを用いてWebサイトの構築</li>
+                            <li><i class="fas fa-circle"></i>デザインカスタマイズ</li>
+                            <li><i class="fas fa-circle"></i>オリジナルテーマの作成</li>
+                            <li><i class="fas fa-circle"></i>アニメーションの実装</li>
+                            <li><i class="fas fa-circle"></i>プラグインの導入</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="service-all-con hide--3">
+                    <div class="service-con">
+                        <div class="service-con-top">
+                            <div class="service-img--3">
+                                <img src="img/upgrade.png" alt="ダウンロードのアイコン">
+                            </div>
+                            <h3 >WordPress導入</h3>
+                        </div>
+                        <p class="service-con-text">既存サイトの管理・更新を便利かつ迅速に行いたい場合は、WordPressをご提案させて頂いています。</p>
+                        <ul>
+                            <li><i class="fas fa-circle"></i>既存サイトをWordPressに移行</li>
+                            <li><i class="fas fa-circle"></i>デザインカスタマイズ</li>
+                            <li><i class="fas fa-circle"></i>オリジナルテーマの作成</li>
+                            <li><i class="fas fa-circle"></i>アニメーションの実装</li>
+                            <li><i class="fas fa-circle"></i>プラグインの導入</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    </div>
+</section>
+<!-- service -->
+<section>
+    <div class="space hide-long">
+        <img src="img/space-img.jpg" alt="ワークスペースの画像">
+    </div>
+</section>
+<!-- space -->
+<section>
+    <div class="work" id="work">
+            <div class="work-title hide">
+                <h2>WORKS</h2>
+                <p>///</p>
+            </div>
+            <div class="work-con">
+                <div class="work-each work-con--1 hide">
+                    <a href="https://drive.google.com/drive/folders/1xX9LMBHcGRLyk90MM1LdMf1vaTWDii83" target="_blank" rel="noopener noreferrer">
+                        <div class="work-img--1"></div>
+                        <div class="work-hover--1">
+                            <p class="work-theme text-center">Airbnb<br>模写コーディング</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="work-each work-con--2 hide--2">
+                    <a href="https://drive.google.com/drive/folders/1xX9LMBHcGRLyk90MM1LdMf1vaTWDii83" target="_blank" rel="noopener noreferrer">
+                        <div class="work-img--2"></div>
+                        <div class="work-hover--2">
+                            <p class="work-theme text-center">Airbnb / レスポンシブ対応<br>模写コーディング</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="work-each work-con--3 hide--3">
+                    <a href="https://drive.google.com/drive/folders/1xX9LMBHcGRLyk90MM1LdMf1vaTWDii83" target="_blank" rel="noopener noreferrer">
+                        <div class="work-img--3"></div>
+                        <div class="work-hover--3">
+                            <p class="work-theme text-center">WordPressテーマ「Stalk」<br>模写コーディング</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+    </div>
+</section>
+<!-- works -->
+<!-- <div class="click-img click-open--1">
+    <div class="click-close"><i class="fas fa-times"></i></div>
+    <img src="img/airbnb-1.jpg" alt="" class="click-img--1">
+    <div class="click-close-under"><i class="fas fa-times"></i></div>
+</div>
+<div class="click-img click-open--2">
+    <div class="click-close"><i class="fas fa-times"></i></div>
+    <img src="img/airbnb-sp.jpg" alt="" class="click-img--2">
+    <div class="click-close-under"><i class="fas fa-times"></i></div>
+</div>
+<div class="click-img click-open--3">
+    <div class="click-close"><i class="fas fa-times"></i></div>
+    <img src="img/stalk-1.jpg" alt="" class="click-img--3">
+    <div class="click-close-under"><i class="fas fa-times"></i></div>
+</div> -->
+<!-- click-img -->
+<section>
+    <div class="passion" id="passion">
+        <div class="passion-title hide">
+            <h2>PASSION</h2>
+            <p>///</p>
+        </div>
+        <div class="passion-con">
+            <div class="passion-con-black hide--4">
+                <div class="passion-con-title">
+                    <h3>Design creates emotion</h3>
+                </div>
+            </div>
+            <div class="passion-con-black--2">
+                <div class="passion-con-text hide">
+                    <h3>デザインは感動を創造する</h3>
+                    <p>デザインには不思議なエネルギーがあり人々を惹きつけます。世界中に存在するデザインは、私たちの側にも溢れています。情報社会に生きる今、ウェブを通じたデザインで感動を創造したい。</p>
+                </div>
+            </div>
+        </div>
+        <div class="passion-con passion-con-reverse">
+            <div class="passion-con-red--2">
+                <div class="passion-con-text hide">
+                    <h3>デザインはスタイリングではない</h3>
+                    <p>スタイリングは、形や色の部分の外観の仕様を吟味し、美しく仕上げること。デザインとは、機能面を考慮してどのように商品の「強み」を分かりやすく印象的に魅力的にどう伝えるかを設計すること。<br>2つを混同せず、本質を理解し業務を行います。</p>
+                </div>
+            </div>
+            <div class="passion-con-red hide--5">
+                <div class="passion-con-title">
+                    <h3>Design isn't styling</h3>
+                </div>
+            </div>
+        </div>
+        <div class="passion-con">
+            <div class="passion-con-gray hide--4">
+                <div class="passion-con-title">
+                    <h3>There is no original in the era</h3>
+                </div>
+            </div>
+            <div class="passion-con-gray--2">
+                <div class="passion-con-text hide">
+                    <h3>この時代に完全オリジナルは存在しない</h3>
+                    <p>モノやサービス、情報が溢れる時代に完全オリジナルは存在しないと考えます。そのため現存する様々な建築物、自然のデザインからインスピレーションを受け、自分の中に落とし込みます。<br>好きな言葉は「Good artists copy, Great artists steal.」。</p>
+                 </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- passion -->
+<section>
+    <div class="promise hide">
+        <p>私は製品を作る意味・目的・本質を理解し、お客様の製品のブランドと価値を高めます。そのためにお客様とのコミュニケーション・自身のスキルの向上・パッションを常に意識します。「納品すれば業務は終わり」ではなく、問題点があれば共に解決し、さらなる成長・発展をお約束いたします。人生の中での出会いは非常に貴重で、価値があります。継続的なお付き合いができれば幸いです。</p>
+    </div>
+</section>
+<!-- promise -->
+</main>
+<footer>
+    <section>
+        <div class="contact-con">
+            <h3>Contact</h3>
+            <div class="contact-con-title">
+                <a href="mailto:ono.shu.0129@gmail.com?subject=%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B&amp;body=%5B%E3%81%8A%E5%90%8D%E5%89%8D%5D%0A%0A%5B%E3%81%94%E7%94%A8%E4%BB%B6%5D%0A%0A"><p class="contact-title">Please Message</p></a>
+            </div>
+        </div>
+    </section>
+</footer>
 
 
-    <!-- Java Script
-    ================================================== -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
-
+<!-- jquery -->
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<!-- bootstrap -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<!-- jsファイル -->
+<script src="index.js"></script>
 </body>
-
 </html>
