@@ -508,6 +508,8 @@ header .header .header-triangle--3 {
 }
 
 header .header .header-name {
+  display: flex;
+  align-items: flex-start;
   position: fixed;
   top: 2%;
   left: 2%;
@@ -518,13 +520,36 @@ header .header .header-name:hover {
   text-decoration: none;
 }
 
-header .header .header-name a {
+header .header .header-name .header-name-title {
   color: #f8b500;
   font-size: 13px;
   font-family: "Josefin Sans", sans-serif;
   letter-spacing: 1.5px;
+  line-height: 22px;
   text-decoration: none;
   margin-bottom: 0;
+  margin-right: 12px;
+}
+
+header .header .header-name .twitter-icon {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+}
+
+header .header .header-name .twitter-icon .header-name-twitter {
+  color: #f8b500;
+  font-size: 18px;
+}
+
+header .header .header-name .github-icon {
+  width: 18px;
+  height: 18px;
+}
+
+header .header .header-name .github-icon .header-name-github {
+  color: #f8b500;
+  font-size: 18px;
 }
 
 header .header .header-mail {
@@ -577,7 +602,7 @@ header .header .header-menu-icon {
 
 @media (max-width: 580px) {
   header .header .header-menu-icon {
-    padding-top: 20px;
+    padding-top: 10px;
     top: 0;
     right: 2%;
     transform: rotate(0);
@@ -828,37 +853,37 @@ header .header .header-title-text {
 
 @media (min-width: 961px) {
   .fade-triangle--1 {
-    animation: fade-triangle--1 ease-in-out forwards 1.5s;
+    animation: fade-triangle--1 ease-in-out forwards 2s;
   }
 }
 
 @media (max-width: 960px) {
   .fade-triangle--1 {
-    animation: fade-triangle--1-2 ease-in-out forwards 1.5s;
+    animation: fade-triangle--1-2 ease-in-out forwards 2s;
   }
 }
 
 @media (min-width: 961px) {
   .fade-triangle--2 {
-    animation: fade-triangle--2 ease-in-out forwards 1.5s;
+    animation: fade-triangle--2 ease-in-out forwards 2s;
   }
 }
 
 @media (max-width: 960px) {
   .fade-triangle--2 {
-    animation: fade-triangle--2-2 ease-in-out forwards 1.5s;
+    animation: fade-triangle--2-2 ease-in-out forwards 2s;
   }
 }
 
 @media (min-width: 961px) {
   .fade-triangle--3 {
-    animation: fade-triangle--3 ease-in-out forwards 1.5s;
+    animation: fade-triangle--3 ease-in-out forwards 2s;
   }
 }
 
 @media (max-width: 960px) {
   .fade-triangle--3 {
-    animation: fade-triangle--3-2 ease-in-out forwards 1.5s;
+    animation: fade-triangle--3-2 ease-in-out forwards 2s;
   }
 }
 
@@ -1815,7 +1840,7 @@ header .header .header-title-text {
 .work .work-con .work-each .work-img--1 {
   width: 100%;
   height: 100%;
-  background-image: url("https://github.com/shu-oss/my-portfolio/blob/master/airbnb.jpg?raw=true");
+  background-image: url("img/airbnb.jpg");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1826,7 +1851,7 @@ header .header .header-title-text {
 .work .work-con .work-each .work-img--2 {
   width: 100%;
   height: 100%;
-  background-image: url("https://github.com/shu-oss/my-portfolio/blob/master/airbnb-sp.jpg?raw=true");
+  background-image: url("img/airbnb-sp.jpg");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1837,7 +1862,7 @@ header .header .header-title-text {
 .work .work-con .work-each .work-img--3 {
   width: 100%;
   height: 100%;
-  background-image: url("https://github.com/shu-oss/my-portfolio/blob/master/stalk.jpg?raw=true");
+  background-image: url("img/stalk.jpg");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
